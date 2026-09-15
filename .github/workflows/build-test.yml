@@ -28,7 +28,7 @@ jobs:
         run: |
           echo "Environment: ${{ env.NODE_ENV }}"
           echo "Log Level: ${{ env.LOG_LEVEL }}"
-    steps:
+
       - name: Checkout code
         uses: actions/checkout@v3
       
